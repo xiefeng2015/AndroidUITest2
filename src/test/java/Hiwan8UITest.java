@@ -144,7 +144,9 @@ public class Hiwan8UITest {
         driver.findElementById("com.wesai.hiwan:id/btn_register").click();
         Assert.assertEquals(driver.findElementById("com.wesai.hiwan:id/titlebar_tv").getText(),"登录");
     }
+
     @AfterClass
+
     public void tearDown() throws Exception{
         driver.quit();
     }

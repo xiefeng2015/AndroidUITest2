@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AndroidUITest" />
+        <module name="Hi8_AndroidUITest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="AndroidUITest" target="1.5" />
+      <module name="Hi8_AndroidUITest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
