@@ -24,7 +24,7 @@ public class DBTest {
             String message = rs.getString("message");
             String idCode = message.substring(7, 13);
             ver_code = idCode;
-            System.out.println(ver_code);
+//            System.out.println(ver_code);
             break;
         }
         rs.close();
