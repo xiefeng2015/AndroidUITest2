@@ -34,10 +34,10 @@ public class DBTest {
         
     }
 
-//    public static void main(String[] args) throws SQLException, ClassNotFoundException {
-//        DBTest dbTest = new DBTest();
-//        dbTest.sqlquery();
-//    }
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+        DBTest dbTest = new DBTest();
+        dbTest.sqlquery();
+    }
 
 //    public static void main(String[] args) throws SQLException, ClassNotFoundException {
 //        Connection connection = null;

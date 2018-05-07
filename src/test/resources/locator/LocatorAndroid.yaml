@@ -1,0 +1,3 @@
+myButton:
+  type: "id"
+  value: "com.wesai.hiwan:id/mine_text"
